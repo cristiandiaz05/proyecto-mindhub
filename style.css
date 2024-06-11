@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 9vh;
+    background-color: aquamarine;
+}
+main{
+    min-height: 78vh;
+    background-color: lightcoral;
+}
+footer{
+    min-height: 10vh;
+    background-color: aquamarine;
+}
+.enlaces {
+    display: flex;
+}
+.enlaces a{    
+    padding: 7px;
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    align-content: center;
+    border: 2px solid rgba(238, 236, 236, 0.959);
+    cursor: pointer;
+    color: white;
+    border-radius: 15px;
+    background-color: lightcoral;
+}
+.logo {
+    height: 50px;
+    width: 50px;
+    
+}
+.img{
+    width: 300px;
+}
