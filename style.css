@@ -132,6 +132,26 @@ main{
     height: 14vh;
     font-size: 25px;
 }
+td{
+    border: 2px solid black;
+}
+.tabla{
+    padding-top: 40px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+table{
+    font-size: 25px;
+    min-width: 65%;
+    min-height: 55vh;
+    text-align: center;
+    border-collapse: collapse;
+}
+    
+
 footer{
     align-content: center;
         text-align: center;
