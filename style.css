@@ -132,7 +132,7 @@ main{
     height: 14vh;
     font-size: 25px;
 }
-td{
+td, th{
     border: 2px solid black;
 }
 .tabla{
@@ -149,6 +149,44 @@ table{
     min-height: 55vh;
     text-align: center;
     border-collapse: collapse;
+}
+
+.listauno{
+    border-radius: 15px;
+    background-color: white;
+    height: 160px;
+    width: 60%;
+    border: 2px solid white;
+    display: flex;
+    gap: 134px;
+    justify-content: center;
+    align-items: center;
+}
+.cream{
+    object-fit: cover;
+    height: 110px;
+    width: 180px;
+    margin-left: -167px;
+}
+ol{
+    list-style-type: none;
+}
+.candy{
+    object-fit: cover;
+    padding: 15px;
+    height: 150px;
+    width: 150px;
+}
+.listas{
+    padding-top: 25px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.cream{
+    width: 150px;
 }
     
 
