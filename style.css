@@ -223,12 +223,29 @@ fieldset{
     align-items: center;
     text-align: center;
 }
+@media (min-width: 320px) {
+    .icon{ 
+        width: 30%;}
+}
+@media (min-width: 320px) {
+    .todo img{ 
+        width: 35%;
+        
+    }  
 
 @media (min-width: 768px){
     .tabla{
         padding-top: 5%;
-
-    }
+}
+}
+@media (min-width: 768px) {
+    .todo img{ 
+        width: 25%;
+    }      
+}
+    @media (min-width: 768px) {
+        .icon{ 
+            width: 30%;}
     }
 @media (min-width: 768px) {
     .candy{ 
