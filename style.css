@@ -254,14 +254,16 @@ fieldset{
     .cono{ 
         flex-direction: row;
         width: 90%;
-        padding-left: 10%;
+        justify-content: end;
+        flex-direction: row;
+        width: 85%;
 }
 }
 @media (min-width: 1024px) {
     .icon{ 
         
         object-fit: contain;
-        width: 27%;
+        width: 12%;
 }
 }
 @media (min-width: 1024px) {
@@ -328,7 +330,7 @@ object-fit: cover;
 }
 @media (min-width: 1024px) {
     .cream{ 
-    width: 22%;
+    width: 20%;
     object-fit: cover;}
 }
 
@@ -347,6 +349,11 @@ object-fit: cover;
         flex-direction: row;
         align-items: center;
         gap: 15%;}
+}
+@media (min-width: 1024px) {
+    .formulario{ 
+        gap: 9px;
+        }
 }
 
 
