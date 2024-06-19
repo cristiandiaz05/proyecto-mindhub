@@ -178,7 +178,6 @@ ol{
 }
 .candy{
     object-fit: cover;
-    padding: 15px;
     height: 150px;
     width: 150px;
 }
@@ -267,32 +266,88 @@ fieldset{
 }
 @media (min-width: 1024px) {
     .imagenuno{ 
+        width: 75%;
         flex-direction: row;
-        gap: 1%;
-        justify-content: space-evenly;}
+        gap: 6%;
+        justify-content: start;}
+}
+@media (min-width: 1024px) {
+    .todo{ align-items: center;
+        }
 }
 @media (min-width: 1024px) {
     .todo img{ 
-        width: 20%;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 16%;
+        height: 130px;
+        align-items: center;
+        object-fit: cover;
     }      
 }
 @media (min-width: 1024px) {
+    
     .parrafo2{ 
         flex-direction: row;
-        gap: 1%;
-        justify-content: space-evenly;
-        padding-left: 3%;
+        justify-content: start;
+        gap: 5%;
+        width: 75%;
     }
 }
 @media (min-width: 1024px) {
+    
     .parrafo3{ 
         flex-direction: row;
-        gap: 1%;
-        justify-content: space-around;
-        padding-right: 8%;
+        justify-content: start;
+        gap: 6%;
+        width: 75%;
     }
 }
 
+@media (min-width: 1024px) {
+    .contact{ 
+        flex-direction: row;
+        justify-content: space-around;}
+}
+
+@media (min-width: 1024px) {
+    .doshelados{ 
+        height: 250px;
+margin-top: 2%;
+width: 79%;
+object-fit: cover;
+    }
+}
+@media (min-width: 1024px) {
+    .listauno{ 
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+}
+@media (min-width: 1024px) {
+    .cream{ 
+    width: 22%;
+    object-fit: cover;}
+}
+
+@media (min-width: 1024px) {
+    .candy{ 
+    width: 25%;
+    object-fit: cover;}
+}
+@media (min-width: 1024px) {
+    .dos{ 
+    padding-right: 15%;}
+}
+@media (min-width: 1024px) {
+    .contenedor{ 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15%;}
+}
 
 
 
